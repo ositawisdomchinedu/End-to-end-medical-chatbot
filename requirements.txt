@@ -1,8 +1,11 @@
-ctransformers==0.2.5
-sentence-transformers==2.2.2
-pinecone-client==2.2.4
-langchain==0.0.225
-flask
+langchain
+langchain_community
+streamlit
+langchain_experimental
+sentence-transformers
+langchain_chroma
+langchainhub 
 pypdf
+ctransformers
 python-dotenv 
 -e .
