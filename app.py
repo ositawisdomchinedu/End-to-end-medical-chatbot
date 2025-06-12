@@ -53,8 +53,8 @@ if uploaded_files:
 
         # Vectorstore
         persist_directory = "./chroma_index"
-        if os.path.exists(persist_directory):
-            shutil.rmtree(persist_directory)
+       # if os.path.exists(persist_directory):
+           # shutil.rmtree(persist_directory)
 
         embeddings = download_hugging_face_embeddings()
         vectorstore = Chroma.from_texts(texts=texts, embedding=embeddings,
